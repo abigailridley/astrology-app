@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Astrology App 💫
 
-## Getting Started
+A web app designed to combine astrology and AI to provide personalized advice based on your natal chart and planetary transits. The app will help users learn more about their astrology chart, receive tailored advice, and get activity suggestions based on their astrology.
 
-First, run the development server:
+## Vision
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This app aims to make astrology more accessible by simplifying complex charts, offering AI-generated advice based on astrological transits, and suggesting activities aligned with the user's mood and astrology. It will also serve as an educational tool for users looking to understand their chart and the effects of their planetary transits.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technologies Used
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Frontend: Next.js
+- Backend: Express (upcoming)
+- Database: MongoDB (upcoming)
+- API: OpenAI API for personalized advice (upcoming)
+- Hosting: Vercel (upcoming)
+- Docker (upcoming)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Current Status
 
-## Learn More
+This project is in the early stages of development. Features have not yet been implemented, but the goal is to integrate astrology data and OpenAI for generating advice based on users' natal charts and planetary transits.
 
-To learn more about Next.js, take a look at the following resources:
+### Upcoming Features:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- User authentication (via GitHub)
+- Display user's natal chart and planetary transits
+- AI-generated astrology advice
+- Personalized activity suggestions based on astrology and mood
+- Educational tools for learning about astrology
+- To-do list for saving suggested activities
+- Customizable themes and settings
