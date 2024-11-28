@@ -1,3 +1,5 @@
+import Header from "@/components/Header";
+import TarotCard from "@/components/TarotCard";
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
@@ -26,9 +28,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} bg-darker-blue text-white antialiased`}
       >
-        {children}
+        <Header />
+        <main> {children}</main>
+        <TarotCard />
       </body>
     </html>
   );
